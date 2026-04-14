@@ -1,0 +1,174 @@
+
+================================================================================
+                         TRACKMYMED — FEATURE LIST
+================================================================================
+
+PHASE 1: MVP FEATURES
+--------------------------------------------------------------------------------
+
+  FEATURE 1 — THE ESCALATION LADDER
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  Multi-channel, adaptive reminder + escalation system                  │
+  │                                                                         │
+  │  Channels (in order of escalation):                                    │
+  │    [1] Push notification (app)        — Free                           │
+  │    [2] SMS / Text message             — Reply to confirm (~$0.01/msg)  │
+  │    [3] AI voice call ("Amy")          — Conversational bot             │
+  │    [4] Alexa / Smart speaker          — Proactive reminder             │
+  │    [5] Email                          — Summary digests only           │
+  │                                                                         │
+  │  Logic:                                                                 │
+  │    Patient notified → No response → Next channel fires →               │
+  │    Still nothing → Primary partner alerted → Backup partners alerted   │
+  │    → Agency home office alerted (if applicable)                        │
+  │                                                                         │
+  │  AI Voice Call Guardrails:                                              │
+  │    WILL:  Confirm meds taken, escalate on confusion/distress,          │
+  │           capture and relay patient-volunteered info to care circle     │
+  │    NEVER: Give medical advice, reveal dosage, make diagnoses           │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+  FEATURE 2 — PROOF OF CARE
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  Auditable, verifiable log of every medication event                   │
+  │                                                                         │
+  │    - Every dose timestamped                                             │
+  │    - Caregiver doses geotagged (confirms presence at patient location) │
+  │    - Logs WHO administered/confirmed each dose                         │
+  │                                                                         │
+  │  Weekly Care Report Card (auto-generated):                             │
+  │    - Doses on time / late / missed                                      │
+  │    - Who administered each dose                                         │
+  │    - Patterns and trends                                                │
+  │    - Exportable for doctor visits                                       │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+  FEATURE 3 — MED LOCK (Medication Verification & Safety System)
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  A. OCR Bottle Scanning                                                 │
+  │       Photo of prescription label → auto-extract name, dosage,        │
+  │       frequency, pill count → sent to care circle for verification     │
+  │                                                                         │
+  │  B. Pill Count Reconciliation                                           │
+  │       Starting count recorded → each dose decrements count →          │
+  │       Mismatch triggers alert → Low count triggers refill reminder     │
+  │                                                                         │
+  │  C. Rich Logging (every entry records):                                │
+  │       WHAT  — medication name                                           │
+  │       WHEN  — timestamp                                                 │
+  │       WHO   — patient self / caregiver / AI bot                        │
+  │       HOW   — verification method (weighted by strength):              │
+  │                 Caregiver in-person + geotag  =  strongest             │
+  │                 Patient via AI voice call     =  strong                │
+  │                 Patient via SMS reply         =  moderate              │
+  │                 Patient via push / button     =  lighter               │
+  │                                                                         │
+  │  D. Escalation History in Log                                           │
+  │       Tracks whether patient confirmed on first contact or escalated   │
+  │       Trend changes = meaningful care signal (e.g. cognitive decline)  │
+  │                                                                         │
+  │  E. Med Lock (Double-Dose Prevention)                                   │
+  │       Dose logged → medication locked for dosing window →              │
+  │       Next caregiver sees: "Given by Maria at 2:15 PM. Next: 8:15 PM" │
+  │       Cannot re-log same med until window opens                        │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+  FEATURE 5 — PATTERN INTELLIGENCE
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  AI-driven pattern detection across all adherence data                 │
+  │                                                                         │
+  │  Detects:                                                               │
+  │    - Time-of-day patterns   (morning vs evening miss rates)            │
+  │    - Day-of-week patterns   (e.g. adherence drops every weekend)       │
+  │    - Shift correlations     (e.g. 3PM handoff = higher miss rate)      │
+  │    - Escalation trends      (patient needs more calls over time)       │
+  │    - Caregiver performance  (on-time % per caregiver)                  │
+  │    - Pill count discrepancies                                           │
+  │                                                                         │
+  │  Guardrail: Surfaces data and patterns ONLY — never medical advice     │
+  │                                                                         │
+  │  Output:                                                                │
+  │    - Powers Weekly Care Report Card                                     │
+  │    - Real-time alerts for significant pattern changes                  │
+  │    - Historical trend views in dashboard                               │
+  │    - Exportable reports for doctor visits                              │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+--------------------------------------------------------------------------------
+PHASE 2: POST-LAUNCH FEATURES
+--------------------------------------------------------------------------------
+
+  FEATURE 4 — THE EASY BUTTON (Hardware)
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  Physical WiFi button — removes all tech barriers for elderly patients │
+  │                                                                         │
+  │    - Lights up + beeps at med time                                      │
+  │    - Patient presses to confirm                                         │
+  │    - Feeds directly into same dashboard/log as all other channels      │
+  │    - Color-changing LED (blue = morning, orange = evening)             │
+  │    - No phone, no app, no screen required                              │
+  │    - Target cost: ~$15-20/unit at scale                                │
+  │    - Sold as one-time purchase                                          │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+  DEFERRED CHANNELS (Phase 2):
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │    - Video call                                                          │
+  │    - Smartwatch integration                                             │
+  │    - WhatsApp / international messaging                                 │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+================================================================================
+SUPPORTING SYSTEMS (cross-cutting, built into MVP)
+================================================================================
+
+  ROLE-BASED ACCESS
+  ─────────────────
+  Agency:
+    Caregiver        →  shift view only (schedule, recent doses, Med Lock)
+    Supervisor        →  full case history, all caregiver logs, reports
+    Business Owner    →  org-wide dashboard across all cases
+
+  Family / Personal:
+    Primary Contact   →  full access, manages the circle
+    Helper            →  can log doses, see current schedule
+    Observer          →  read-only, gets weekly report
+
+  SMS-FIRST PATIENT CONFIRMATION
+  ───────────────────────────────
+    Grandma doesn't need an app.
+    A text reply is enough to confirm a dose.
+
+  PRIVACY & COMPLIANCE
+  ─────────────────────
+    - HIPAA-equivalent from day one
+    - Zero data selling — ever
+    - AI always identifies itself as automated
+    - AI never gives medical advice
+
+================================================================================
+TIER BREAKDOWN
+================================================================================
+
+  FREE TIER
+  ─────────────────────────────────────────────────────────────────────────
+    Unlimited medications         Full log history
+    Push notifications            SMS reminders to patient
+    Full escalation ladder        Care circle + role-based access
+    Weekly Care Report Card       Med Lock / shift safety
+    OCR bottle scanning           Basic pattern intelligence
+    Alexa integration             Email digests
+
+  PREMIUM (Personal)
+  ─────────────────────────────────────────────────────────────────────────
+    AI voice calls                Advanced pattern intelligence
+    Priority support
+
+  BUSINESS TIER (Agencies)
+  ─────────────────────────────────────────────────────────────────────────
+    Everything in Premium         Multi-caregiver management
+    Geotag verification           Supervisor dashboards
+    Org-wide reporting            Caregiver performance analytics
+    Bulk onboarding tools
+
+================================================================================
