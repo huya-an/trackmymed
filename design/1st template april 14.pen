@@ -20565,6 +20565,7 @@
           "height": 1900,
           "fill": "#FAF8F5",
           "layout": "vertical",
+          "gap": 16,
           "children": [
             {
               "type": "frame",
@@ -20714,7 +20715,7 @@
             },
             {
               "type": "frame",
-              "id": "rM7j6",
+              "id": "fhcxl",
               "name": "Weekly Care Overview",
               "width": "fill_container",
               "height": 28,
@@ -20727,16 +20728,16 @@
               "children": [
                 {
                   "type": "text",
-                  "id": "GdPsk",
+                  "id": "4TYNj",
                   "fill": "#1B2A24",
-                  "content": "Weekly care overview",
+                  "content": "Weekly Care Overview",
                   "fontFamily": "Outfit",
                   "fontSize": 14,
                   "fontWeight": "600"
                 },
                 {
                   "type": "text",
-                  "id": "B5bgN",
+                  "id": "oiEss",
                   "fill": "#3D8A5A",
                   "content": "View full report →",
                   "fontFamily": "Outfit",
