@@ -21115,14 +21115,14 @@
                     },
                     {
                       "type": "frame",
-                      "id": "Z41rm",
-                      "name": "Handoff + Pattern Row",
+                      "id": "BfQ0v",
+                      "name": "Check-in + Pattern Row",
                       "width": "fill_container",
                       "gap": 10,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "hV9Xk",
+                          "id": "iKg0V",
                           "width": "fill_container",
                           "fill": "#F0F7F2",
                           "cornerRadius": 8,
@@ -21140,32 +21140,32 @@
                           "children": [
                             {
                               "type": "icon_font",
-                              "id": "780aH",
+                              "id": "dTkDq",
                               "width": 12,
                               "height": 12,
-                              "iconFontName": "repeat",
+                              "iconFontName": "circle-check",
                               "iconFontFamily": "lucide",
                               "fill": "#3D8A5A"
                             },
                             {
                               "type": "frame",
-                              "id": "zIsfu",
+                              "id": "WG5vU",
                               "width": "fill_container",
                               "layout": "vertical",
                               "gap": 1,
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "rIvNQ",
+                                  "id": "vHjs1",
                                   "fill": "#1B2A24",
-                                  "content": "Shift handoff",
+                                  "content": "Last check-in",
                                   "fontFamily": "Outfit",
                                   "fontSize": 11,
                                   "fontWeight": "600"
                                 },
                                 {
                                   "type": "text",
-                                  "id": "YummH",
+                                  "id": "6VqcV",
                                   "fill": "#4D5A53",
                                   "content": "Maria · 6 AM–2 PM · 4/4 doses",
                                   "fontFamily": "Outfit",
@@ -21178,7 +21178,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "oh4dS",
+                          "id": "8ss3n",
                           "width": "fill_container",
                           "fill": "#FFF8E6",
                           "cornerRadius": 8,
@@ -21196,7 +21196,7 @@
                           "children": [
                             {
                               "type": "icon_font",
-                              "id": "2RCPv",
+                              "id": "tM9LI",
                               "width": 12,
                               "height": 12,
                               "iconFontName": "activity",
@@ -21205,14 +21205,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "wdmLD",
+                              "id": "sELML",
                               "width": "fill_container",
                               "layout": "vertical",
                               "gap": 1,
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "wJBVP",
+                                  "id": "XfW5z",
                                   "fill": "#8C6A1F",
                                   "content": "Pattern forming",
                                   "fontFamily": "Outfit",
@@ -21221,7 +21221,7 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "zUXXI",
+                                  "id": "7A9HX",
                                   "fill": "#6D5518",
                                   "content": "Evening missed 2 of 7 days",
                                   "fontFamily": "Outfit",
@@ -21739,7 +21739,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "BjsGk",
+                      "id": "1CZHV",
                       "name": "Care Circle + Channel",
                       "width": "fill_container",
                       "gap": 16,
@@ -21752,22 +21752,22 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "hIPdJ",
+                          "id": "eezEM",
                           "gap": 6,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon_font",
-                              "id": "OxMLm",
+                              "id": "v6fhC",
                               "width": 12,
                               "height": 12,
-                              "iconFontName": "eye",
+                              "iconFontName": "circle-check",
                               "iconFontFamily": "lucide",
                               "fill": "#8A948F"
                             },
                             {
                               "type": "text",
-                              "id": "YQRi0",
+                              "id": "y8Gt5",
                               "fill": "#8A948F",
                               "content": "Michael checked in 2 hrs ago",
                               "fontFamily": "Outfit",
@@ -21778,13 +21778,13 @@
                         },
                         {
                           "type": "frame",
-                          "id": "w7qkh",
+                          "id": "Tk0QL",
                           "gap": 6,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon_font",
-                              "id": "TNTVh",
+                              "id": "Vy9MP",
                               "width": 12,
                               "height": 12,
                               "iconFontName": "message-square",
@@ -21793,7 +21793,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "mrB2T",
+                              "id": "yHYR4",
                               "fill": "#6B7A73",
                               "content": "Preferred: SMS",
                               "fontFamily": "Outfit",
@@ -21802,7 +21802,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "hOhIY",
+                              "id": "GwaWI",
                               "fill": "#3D8A5A",
                               "content": "Edit",
                               "fontFamily": "Outfit",
@@ -22265,14 +22265,14 @@
                     },
                     {
                       "type": "frame",
-                      "id": "ebiZH",
-                      "name": "Handoff + Status Row",
+                      "id": "8U1Ck",
+                      "name": "Check-in + Status Row",
                       "width": "fill_container",
                       "gap": 10,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "CEkuq",
+                          "id": "7ZCgE",
                           "width": "fill_container",
                           "fill": "#F0F7F2",
                           "cornerRadius": 8,
@@ -22290,32 +22290,32 @@
                           "children": [
                             {
                               "type": "icon_font",
-                              "id": "ozSgH",
+                              "id": "XHfP8",
                               "width": 12,
                               "height": 12,
-                              "iconFontName": "repeat",
+                              "iconFontName": "circle-check",
                               "iconFontFamily": "lucide",
                               "fill": "#3D8A5A"
                             },
                             {
                               "type": "frame",
-                              "id": "HFmI9",
+                              "id": "9dGyk",
                               "width": "fill_container",
                               "layout": "vertical",
                               "gap": 1,
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "Ymice",
+                                  "id": "bwu4Y",
                                   "fill": "#1B2A24",
-                                  "content": "Shift handoff",
+                                  "content": "Last check-in",
                                   "fontFamily": "Outfit",
                                   "fontSize": 11,
                                   "fontWeight": "600"
                                 },
                                 {
                                   "type": "text",
-                                  "id": "BUTi5",
+                                  "id": "0ZGD7",
                                   "fill": "#4D5A53",
                                   "content": "Linda · 2 PM–8 PM · 3/3 doses",
                                   "fontFamily": "Outfit",
@@ -22328,7 +22328,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "laD1O",
+                          "id": "bXd7g",
                           "width": "fill_container",
                           "fill": "#E8F1EA",
                           "cornerRadius": 8,
@@ -22346,23 +22346,23 @@
                           "children": [
                             {
                               "type": "icon_font",
-                              "id": "7YmBZ",
+                              "id": "lCBv4",
                               "width": 12,
                               "height": 12,
-                              "iconFontName": "check-circle",
+                              "iconFontName": "circle-check",
                               "iconFontFamily": "lucide",
                               "fill": "#2D6B44"
                             },
                             {
                               "type": "frame",
-                              "id": "1CMEN",
+                              "id": "eg0R2",
                               "width": "fill_container",
                               "layout": "vertical",
                               "gap": 1,
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "q3vmC",
+                                  "id": "67B0j",
                                   "fill": "#2D6B44",
                                   "content": "All on track",
                                   "fontFamily": "Outfit",
@@ -22371,7 +22371,7 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "8uRKe",
+                                  "id": "1IcXV",
                                   "fill": "#3D8A5A",
                                   "content": "No patterns detected",
                                   "fontFamily": "Outfit",
@@ -22794,7 +22794,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "tMRd2",
+                      "id": "VUaEU",
                       "name": "Care Circle + Channel",
                       "width": "fill_container",
                       "gap": 16,
@@ -22807,22 +22807,22 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "sfxFN",
+                          "id": "emGFA",
                           "gap": 6,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon_font",
-                              "id": "NSzyt",
+                              "id": "f8py1",
                               "width": 12,
                               "height": 12,
-                              "iconFontName": "eye",
+                              "iconFontName": "circle-check",
                               "iconFontFamily": "lucide",
                               "fill": "#8A948F"
                             },
                             {
                               "type": "text",
-                              "id": "NI9wW",
+                              "id": "8rF8s",
                               "fill": "#8A948F",
                               "content": "Linda checked in 45 min ago",
                               "fontFamily": "Outfit",
@@ -22833,13 +22833,13 @@
                         },
                         {
                           "type": "frame",
-                          "id": "f8khq",
+                          "id": "OiQzf",
                           "gap": 6,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "icon_font",
-                              "id": "eJZQN",
+                              "id": "lFeT1",
                               "width": 12,
                               "height": 12,
                               "iconFontName": "phone",
@@ -22848,7 +22848,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "dTNfd",
+                              "id": "2S3Jr",
                               "fill": "#6B7A73",
                               "content": "Preferred: AI call",
                               "fontFamily": "Outfit",
@@ -22857,7 +22857,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "ScDJt",
+                              "id": "iuMUp",
                               "fill": "#3D8A5A",
                               "content": "Edit",
                               "fontFamily": "Outfit",
