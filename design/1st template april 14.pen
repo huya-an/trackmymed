@@ -25695,11 +25695,15 @@
       "width": 1280,
       "height": 900,
       "fill": "#FAF8F5",
+      "layout": "vertical",
       "children": [
         {
           "type": "frame",
           "id": "yKrov",
+          "x": 0,
+          "y": 0,
           "name": "sidebar",
+          "enabled": false,
           "width": 220,
           "height": 900,
           "fill": "#FFFFFF",
@@ -25794,313 +25798,13 @@
                   "letterSpacing": 1
                 },
                 {
-                  "type": "frame",
-                  "id": "W3fYd",
-                  "name": "Dorothy Header",
-                  "width": 188,
-                  "height": 36,
-                  "fill": "#F0F7F3",
-                  "cornerRadius": 6,
-                  "padding": [
-                    0,
-                    10
-                  ],
-                  "justifyContent": "space_between",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "IFyDh",
-                      "name": "dorL",
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "ellipse",
-                          "id": "sQ99q",
-                          "name": "dorDot",
-                          "fill": "#3D8A5A",
-                          "width": 8,
-                          "height": 8
-                        },
-                        {
-                          "type": "text",
-                          "id": "5t6zz",
-                          "name": "dorName",
-                          "fill": "#3D8A5A",
-                          "content": "Dorothy Johnson",
-                          "fontFamily": "Outfit",
-                          "fontSize": 13,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "icon_font",
-                      "id": "gKN3R",
-                      "name": "dorChev",
-                      "width": 14,
-                      "height": 14,
-                      "iconFontName": "chevron-down",
-                      "iconFontFamily": "lucide",
-                      "fill": "#3D8A5A"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "TDlIU",
-                  "name": "subRow1",
-                  "width": 188,
-                  "height": 32,
-                  "cornerRadius": 4,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12,
-                    0,
-                    28
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon_font",
-                      "id": "7nybA",
-                      "width": 14,
-                      "height": 14,
-                      "iconFontName": "pill",
-                      "iconFontFamily": "lucide",
-                      "fill": "#6B7280"
-                    },
-                    {
-                      "type": "text",
-                      "id": "SJA9G",
-                      "fill": "#6B7280",
-                      "content": "Medications",
-                      "fontFamily": "Outfit",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "z5AbY",
-                  "name": "subRow2",
-                  "width": 188,
-                  "height": 32,
-                  "cornerRadius": 4,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12,
-                    0,
-                    28
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon_font",
-                      "id": "Q0f3P",
-                      "width": 14,
-                      "height": 14,
-                      "iconFontName": "users",
-                      "iconFontFamily": "lucide",
-                      "fill": "#6B7280"
-                    },
-                    {
-                      "type": "text",
-                      "id": "0Cd1M",
-                      "fill": "#6B7280",
-                      "content": "Care Circle",
-                      "fontFamily": "Outfit",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "djtPk",
-                  "name": "subRow3",
-                  "width": 188,
-                  "height": 32,
-                  "cornerRadius": 4,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12,
-                    0,
-                    28
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon_font",
-                      "id": "aHd9d",
-                      "width": 14,
-                      "height": 14,
-                      "iconFontName": "bell",
-                      "iconFontFamily": "lucide",
-                      "fill": "#6B7280"
-                    },
-                    {
-                      "type": "text",
-                      "id": "H57t4",
-                      "fill": "#6B7280",
-                      "content": "Reminders",
-                      "fontFamily": "Outfit",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "KuIdX",
-                  "name": "subRow4",
-                  "width": 188,
-                  "height": 32,
-                  "cornerRadius": 4,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12,
-                    0,
-                    28
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon_font",
-                      "id": "QTfod",
-                      "width": 14,
-                      "height": 14,
-                      "iconFontName": "activity",
-                      "iconFontFamily": "lucide",
-                      "fill": "#6B7280"
-                    },
-                    {
-                      "type": "text",
-                      "id": "wjiyj",
-                      "fill": "#6B7280",
-                      "content": "Activity Log",
-                      "fontFamily": "Outfit",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "ZZzfk",
-                  "name": "subRow5",
-                  "width": 188,
-                  "height": 32,
-                  "cornerRadius": 4,
-                  "gap": 8,
-                  "padding": [
-                    0,
-                    12,
-                    0,
-                    28
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon_font",
-                      "id": "tHglR",
-                      "width": 14,
-                      "height": 14,
-                      "iconFontName": "chart-bar",
-                      "iconFontFamily": "lucide",
-                      "fill": "#6B7280"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Petcv",
-                      "fill": "#6B7280",
-                      "content": "Reports",
-                      "fontFamily": "Outfit",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "r5L30",
-                  "name": "Robert Header",
-                  "width": 188,
-                  "height": 36,
-                  "cornerRadius": 6,
-                  "padding": [
-                    0,
-                    10
-                  ],
-                  "justifyContent": "space_between",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "1TIoO",
-                      "name": "robL",
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "ellipse",
-                          "id": "hOTql",
-                          "fill": "#D1D5DB",
-                          "width": 8,
-                          "height": 8
-                        },
-                        {
-                          "type": "text",
-                          "id": "0ukXg",
-                          "fill": "#6B7280",
-                          "content": "Robert Johnson",
-                          "fontFamily": "Outfit",
-                          "fontSize": 13,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "OMd9y",
-                          "name": "robBadge",
-                          "height": 18,
-                          "fill": "#DCFCE7",
-                          "cornerRadius": 10,
-                          "padding": [
-                            0,
-                            7
-                          ],
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "vMtmd",
-                              "fill": "#166534",
-                              "content": "All taken",
-                              "fontFamily": "Outfit",
-                              "fontSize": 10,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "icon_font",
-                      "id": "J7OJg",
-                      "width": 14,
-                      "height": 14,
-                      "iconFontName": "chevron-right",
-                      "iconFontFamily": "lucide",
-                      "fill": "#9CA3AF"
-                    }
-                  ]
+                  "type": "text",
+                  "id": "on9tr",
+                  "fill": "#9CA3AF",
+                  "content": "No patients yet",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -26248,92 +25952,95 @@
         },
         {
           "type": "frame",
-          "id": "yPrtQ",
+          "id": "hHmFo",
           "name": "Onboarding Content",
-          "width": 1060,
+          "width": 1280,
           "height": 900,
           "fill": "#FAF7F2",
           "layout": "vertical",
-          "gap": 32,
+          "gap": 28,
           "padding": [
             32,
-            40
+            80
           ],
           "children": [
             {
               "type": "frame",
-              "id": "rsv7h",
+              "id": "Hm9xX",
               "width": "fill_container",
               "justifyContent": "space_between",
               "alignItems": "center",
               "children": [
                 {
-                  "type": "text",
-                  "id": "ftedp",
-                  "fill": "#1B2A24",
-                  "content": "Good morning, Sarah",
-                  "fontFamily": "Outfit",
-                  "fontSize": 20,
-                  "fontWeight": "600"
-                },
-                {
                   "type": "frame",
-                  "id": "JdSVz",
-                  "fill": "#3D8A5A",
-                  "cornerRadius": 8,
-                  "gap": 8,
-                  "padding": [
-                    10,
-                    14
-                  ],
+                  "id": "ibKXM",
+                  "gap": 10,
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "icon_font",
-                      "id": "7LPQ4",
-                      "width": 16,
-                      "height": 16,
-                      "iconFontName": "plus",
-                      "iconFontFamily": "lucide",
-                      "fill": "#FFFFFF"
+                      "type": "text",
+                      "id": "O5pWP",
+                      "fill": "#3D8A5A",
+                      "content": "MedTrack",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
                     },
                     {
                       "type": "text",
-                      "id": "BhlFB",
-                      "fill": "#FFFFFF",
-                      "content": "Add Medication",
+                      "id": "DCy1I",
+                      "fill": "#D6CFC5",
+                      "content": "·",
                       "fontFamily": "Outfit",
-                      "fontSize": 14,
-                      "fontWeight": "600"
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J1wxX",
+                      "fill": "#1B2A24",
+                      "content": "Good morning, Sarah",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "500"
                     }
                   ]
+                },
+                {
+                  "type": "text",
+                  "id": "I2Xpu",
+                  "fill": "#8A948F",
+                  "content": "Log out",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "9mhFH",
+              "id": "I5QVl",
               "width": "fill_container",
               "layout": "vertical",
               "gap": 8,
               "padding": [
-                40,
+                20,
                 0
               ],
               "alignItems": "center",
               "children": [
                 {
                   "type": "icon_font",
-                  "id": "0k5FL",
-                  "width": 48,
-                  "height": 48,
+                  "id": "cDanb",
+                  "width": 44,
+                  "height": 44,
                   "iconFontName": "heart",
                   "iconFontFamily": "lucide",
                   "fill": "#D89575"
                 },
                 {
                   "type": "text",
-                  "id": "4nrZY",
+                  "id": "PpXxM",
                   "fill": "#1B2A24",
                   "content": "Welcome to MedTrack",
                   "fontFamily": "Outfit",
@@ -26342,34 +26049,228 @@
                 },
                 {
                   "type": "text",
-                  "id": "FnLKX",
+                  "id": "YYka4",
                   "fill": "#6B7A73",
-                  "content": "Let's set up your care circle so you never miss a dose.",
+                  "content": "Peace of mind that your loved one never misses a dose.",
                   "fontFamily": "Outfit",
                   "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "zDgwz",
+                  "fill": "#8A948F",
+                  "content": "Set up takes about 2 minutes",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
                   "fontWeight": "normal"
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "AmUTl",
+              "id": "g3KJw",
               "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2DB"
+              },
               "layout": "vertical",
-              "gap": 12,
+              "gap": 6,
+              "padding": [
+                16,
+                24
+              ],
               "children": [
                 {
                   "type": "text",
-                  "id": "Tg68v",
+                  "id": "OWU9H",
                   "fill": "#1B2A24",
-                  "content": "Get started in 3 steps",
+                  "content": "First, who are you tracking medications for?",
                   "fontFamily": "Outfit",
-                  "fontSize": 16,
+                  "fontSize": 15,
                   "fontWeight": "600"
                 },
                 {
                   "type": "frame",
-                  "id": "inGvo",
+                  "id": "qE6vT",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "padding": [
+                    10,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "27YGe",
+                      "width": "fill_container",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E8E2DB"
+                      },
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "G4HoJ",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "user",
+                          "iconFontFamily": "lucide",
+                          "fill": "#6B7A73"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OXs7y",
+                          "fill": "#1B2A24",
+                          "content": "Myself",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R9UQM",
+                      "width": "fill_container",
+                      "fill": "#F0F7F2",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 2,
+                        "fill": "#3D8A5A"
+                      },
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "XPbq6",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "heart",
+                          "iconFontFamily": "lucide",
+                          "fill": "#3D8A5A"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tSRQr",
+                          "fill": "#1B2A24",
+                          "content": "A family member",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nf5k4",
+                      "width": "fill_container",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E8E2DB"
+                      },
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "lxdl6",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "briefcase",
+                          "iconFontFamily": "lucide",
+                          "fill": "#6B7A73"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LZKCS",
+                          "fill": "#1B2A24",
+                          "content": "I'm a caregiver",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2505j",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kyNkO",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "spsgw",
+                      "fill": "#1B2A24",
+                      "content": "Get started in 3 steps",
+                      "fontFamily": "Outfit",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lZwOq",
+                      "width": 200,
+                      "height": 6,
+                      "fill": "#F0ECE5",
+                      "cornerRadius": 999,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 999,
+                          "id": "kxFd7",
+                          "fill": "#3D8A5A",
+                          "width": 0,
+                          "height": 6
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KEIpT",
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 12,
@@ -26380,16 +26281,16 @@
                   },
                   "gap": 16,
                   "padding": [
-                    20,
-                    24
+                    16,
+                    20
                   ],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "sPu4B",
-                      "width": 40,
-                      "height": 40,
+                      "id": "10XIg",
+                      "width": 36,
+                      "height": 36,
                       "fill": "#3D8A5A",
                       "cornerRadius": 999,
                       "layout": "vertical",
@@ -26398,59 +26299,59 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "YqxQt",
+                          "id": "KJSh5",
                           "fill": "#FFFFFF",
                           "content": "1",
                           "fontFamily": "Outfit",
-                          "fontSize": 16,
+                          "fontSize": 15,
                           "fontWeight": "700"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "HsPN3",
+                      "id": "1tR31",
                       "width": "fill_container",
                       "layout": "vertical",
                       "gap": 2,
                       "children": [
                         {
                           "type": "text",
-                          "id": "iNAMD",
+                          "id": "q5Asp",
                           "fill": "#1B2A24",
-                          "content": "Add your first patient",
+                          "content": "Add your loved one",
                           "fontFamily": "Outfit",
-                          "fontSize": 15,
+                          "fontSize": 14,
                           "fontWeight": "600"
                         },
                         {
                           "type": "text",
-                          "id": "DUE5B",
+                          "id": "vNub6",
                           "fill": "#6B7A73",
-                          "content": "Who are you tracking medications for? Add yourself or a loved one.",
+                          "content": "Tell us who you're helping — name and how they prefer to be reminded.",
                           "fontFamily": "Outfit",
-                          "fontSize": 13,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "bhLxI",
+                      "id": "rbC69",
                       "fill": "#3D8A5A",
                       "cornerRadius": 8,
                       "gap": 6,
                       "padding": [
-                        10,
-                        16
+                        8,
+                        14
                       ],
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "text",
-                          "id": "CXxh6",
+                          "id": "AUQZW",
                           "fill": "#FFFFFF",
-                          "content": "Add patient",
+                          "content": "Add loved one",
                           "fontFamily": "Outfit",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -26461,7 +26362,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "9X7UQ",
+                  "id": "LZ9Jg",
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 12,
@@ -26472,16 +26373,16 @@
                   },
                   "gap": 16,
                   "padding": [
-                    20,
-                    24
+                    16,
+                    20
                   ],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "jzE1s",
-                      "width": 40,
-                      "height": 40,
+                      "id": "0JYZX",
+                      "width": 36,
+                      "height": 36,
                       "fill": "#F5F1ED",
                       "cornerRadius": 999,
                       "layout": "vertical",
@@ -26490,76 +26391,138 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "TwWvT",
+                          "id": "4VGCR",
                           "fill": "#6B7A73",
                           "content": "2",
                           "fontFamily": "Outfit",
-                          "fontSize": 16,
+                          "fontSize": 15,
                           "fontWeight": "700"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "djMms",
+                      "id": "JTksR",
                       "width": "fill_container",
                       "layout": "vertical",
                       "gap": 2,
                       "children": [
                         {
                           "type": "text",
-                          "id": "JCfc9",
+                          "id": "japVQ",
                           "fill": "#1B2A24",
-                          "content": "Scan a medication label",
+                          "content": "Add their first medication",
                           "fontFamily": "Outfit",
-                          "fontSize": 15,
+                          "fontSize": 14,
                           "fontWeight": "600"
                         },
                         {
                           "type": "text",
-                          "id": "cRNQL",
+                          "id": "LAGjS",
                           "fill": "#6B7A73",
-                          "content": "Point your camera at the prescription bottle — we'll do the rest.",
+                          "content": "Scan the label or type it manually. We'll set up reminders automatically.",
                           "fontFamily": "Outfit",
-                          "fontSize": 13,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "wD0kg",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 8,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1,
-                        "fill": "#D6CFC5"
-                      },
-                      "gap": 6,
-                      "padding": [
-                        10,
-                        16
-                      ],
-                      "alignItems": "center",
+                      "id": "FSBHk",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "end",
                       "children": [
                         {
-                          "type": "icon_font",
-                          "id": "hUrzA",
-                          "width": 14,
-                          "height": 14,
-                          "iconFontName": "camera",
-                          "iconFontFamily": "lucide",
-                          "fill": "#8A948F"
+                          "type": "frame",
+                          "id": "bjjGb",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "4ih37",
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 8,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#D6CFC5"
+                              },
+                              "gap": 6,
+                              "padding": [
+                                8,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "Vvxxl",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "camera",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#6B7A73"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Bwq6S",
+                                  "fill": "#6B7A73",
+                                  "content": "Scan",
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "QKogz",
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 8,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#D6CFC5"
+                              },
+                              "gap": 6,
+                              "padding": [
+                                8,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "V1O6t",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "pen-line",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#6B7A73"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "T0kzS",
+                                  "fill": "#6B7A73",
+                                  "content": "Type",
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
                         },
                         {
                           "type": "text",
-                          "id": "1aOuR",
-                          "fill": "#6B7A73",
-                          "content": "Scan label",
+                          "id": "0q0hS",
+                          "fill": "#8A948F",
+                          "content": "Skip for now",
                           "fontFamily": "Outfit",
-                          "fontSize": 13,
-                          "fontWeight": "500"
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -26567,7 +26530,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "Gxp5K",
+                  "id": "UEIXV",
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 12,
@@ -26578,16 +26541,16 @@
                   },
                   "gap": 16,
                   "padding": [
-                    20,
-                    24
+                    16,
+                    20
                   ],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "tpW39",
-                      "width": 40,
-                      "height": 40,
+                      "id": "6n3Fm",
+                      "width": 36,
+                      "height": 36,
                       "fill": "#F5F1ED",
                       "cornerRadius": 999,
                       "layout": "vertical",
@@ -26596,80 +26559,146 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "ILcE9",
+                          "id": "0BwCv",
                           "fill": "#6B7A73",
                           "content": "3",
                           "fontFamily": "Outfit",
-                          "fontSize": 16,
+                          "fontSize": 15,
                           "fontWeight": "700"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "NTi8u",
+                      "id": "ZsC0v",
                       "width": "fill_container",
                       "layout": "vertical",
                       "gap": 2,
                       "children": [
                         {
                           "type": "text",
-                          "id": "Sd5qZ",
+                          "id": "8WIC7",
                           "fill": "#1B2A24",
-                          "content": "Invite your care circle",
+                          "content": "Build their care circle",
                           "fontFamily": "Outfit",
-                          "fontSize": 15,
+                          "fontSize": 14,
                           "fontWeight": "600"
                         },
                         {
                           "type": "text",
-                          "id": "vdV3p",
+                          "id": "SAIe4",
                           "fill": "#6B7A73",
-                          "content": "Add family, caregivers, or agency staff who help manage medications.",
+                          "content": "Invite family or caregivers. Everyone stays in sync — no one carries the load alone.",
                           "fontFamily": "Outfit",
-                          "fontSize": 13,
+                          "fontSize": 12,
                           "fontWeight": "normal"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "ZKpOA",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 8,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1,
-                        "fill": "#D6CFC5"
-                      },
-                      "gap": 6,
-                      "padding": [
-                        10,
-                        16
-                      ],
-                      "alignItems": "center",
+                      "id": "kD55V",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "end",
                       "children": [
                         {
-                          "type": "icon_font",
-                          "id": "i8tPe",
-                          "width": 14,
-                          "height": 14,
-                          "iconFontName": "user-plus",
-                          "iconFontFamily": "lucide",
-                          "fill": "#8A948F"
+                          "type": "frame",
+                          "id": "BaM9d",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#D6CFC5"
+                          },
+                          "gap": 6,
+                          "padding": [
+                            8,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "r86v8",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "user-plus",
+                              "iconFontFamily": "lucide",
+                              "fill": "#6B7A73"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TUHjU",
+                              "fill": "#6B7A73",
+                              "content": "Invite",
+                              "fontFamily": "Outfit",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
                         },
                         {
                           "type": "text",
-                          "id": "p6EQn",
-                          "fill": "#6B7A73",
-                          "content": "Invite",
+                          "id": "okrHZ",
+                          "fill": "#8A948F",
+                          "content": "Skip for now",
                           "fontFamily": "Outfit",
-                          "fontSize": 13,
-                          "fontWeight": "500"
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SHl4q",
+              "width": "fill_container",
+              "fill": "#F5F1ED",
+              "cornerRadius": 10,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2DB"
+              },
+              "gap": 8,
+              "padding": [
+                12,
+                16
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "i0edp",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "circle-help",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B7A73"
+                },
+                {
+                  "type": "text",
+                  "id": "0VDvK",
+                  "fill": "#4D5A53",
+                  "content": "Watch a quick walkthrough",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "qHjld",
+                  "fill": "#8A948F",
+                  "content": "· 30 seconds",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             }
