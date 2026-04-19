@@ -1,5 +1,5 @@
 {
-  "version": "2.10",
+  "version": "2.11",
   "children": [
     {
       "type": "frame",
@@ -20714,6 +20714,39 @@
             },
             {
               "type": "frame",
+              "id": "rM7j6",
+              "name": "Weekly Care Overview",
+              "width": "fill_container",
+              "height": 28,
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GdPsk",
+                  "fill": "#1B2A24",
+                  "content": "Weekly care overview",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "B5bgN",
+                  "fill": "#3D8A5A",
+                  "content": "View full report →",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "sPFh8",
               "name": "Content Area",
               "width": "fill_container",
@@ -21075,13 +21108,153 @@
                           "fontWeight": "500"
                         },
                         {
+                          "type": "frame",
+                          "id": "dHecc",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 6,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#D6CFC5"
+                          },
+                          "gap": 4,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "iWOY0",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "camera",
+                              "iconFontFamily": "lucide",
+                              "fill": "#4D5A53"
+                            },
+                            {
+                              "type": "text",
+                              "id": "U1Kaa",
+                              "fill": "#4D5A53",
+                              "content": "Scan",
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gR0Ps",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 6,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#D6CFC5"
+                          },
+                          "gap": 4,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "quh5X",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "package",
+                              "iconFontFamily": "lucide",
+                              "fill": "#4D5A53"
+                            },
+                            {
+                              "type": "text",
+                              "id": "dkRmq",
+                              "fill": "#4D5A53",
+                              "content": "Refill",
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
                           "type": "icon_font",
                           "id": "8gcuE",
                           "width": 20,
                           "height": 20,
-                          "iconFontName": "chevron-up",
+                          "iconFontName": "chevron-down",
                           "iconFontFamily": "lucide",
                           "fill": "#6B7280"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y9CsM",
+                      "name": "Shift Handoff",
+                      "width": "fill_container",
+                      "fill": "#F0F7F2",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#C7D9CE"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "X8w5B",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "repeat",
+                          "iconFontFamily": "lucide",
+                          "fill": "#3D8A5A"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6Pqih",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aB0QL",
+                              "fill": "#1B2A24",
+                              "content": "Shift handoff",
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qP0pr",
+                              "fill": "#4D5A53",
+                              "content": "Last shift: Maria · 6 AM – 2 PM · 4/4 doses · no issues",
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "rq86k",
+                          "fill": "#3D8A5A",
+                          "content": "View log →",
+                          "fontFamily": "Outfit",
+                          "fontSize": 11,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -21814,13 +21987,153 @@
                           "fontWeight": "500"
                         },
                         {
+                          "type": "frame",
+                          "id": "x5vMg",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 6,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#D6CFC5"
+                          },
+                          "gap": 4,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "Xrj3z",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "camera",
+                              "iconFontFamily": "lucide",
+                              "fill": "#4D5A53"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bE5qf",
+                              "fill": "#4D5A53",
+                              "content": "Scan",
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aevT3",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 6,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#D6CFC5"
+                          },
+                          "gap": 4,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "8DhRz",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "package",
+                              "iconFontFamily": "lucide",
+                              "fill": "#4D5A53"
+                            },
+                            {
+                              "type": "text",
+                              "id": "IsCj4",
+                              "fill": "#4D5A53",
+                              "content": "Refill",
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
                           "type": "icon_font",
                           "id": "zbw80",
                           "width": 20,
                           "height": 20,
-                          "iconFontName": "chevron-up",
+                          "iconFontName": "chevron-down",
                           "iconFontFamily": "lucide",
                           "fill": "#6B7280"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "s9Csv",
+                      "name": "Shift Handoff",
+                      "width": "fill_container",
+                      "fill": "#F0F7F2",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#C7D9CE"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "EmlbQ",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "repeat",
+                          "iconFontFamily": "lucide",
+                          "fill": "#3D8A5A"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NaEOP",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PuMIw",
+                              "fill": "#1B2A24",
+                              "content": "Shift handoff",
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "85g7U",
+                              "fill": "#4D5A53",
+                              "content": "Last shift: Linda · 2 PM – 8 PM · 3/3 doses · on time",
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "J0Tfi",
+                          "fill": "#3D8A5A",
+                          "content": "View log →",
+                          "fontFamily": "Outfit",
+                          "fontSize": 11,
+                          "fontWeight": "600"
                         }
                       ]
                     },
