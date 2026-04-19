@@ -1,4 +1,4 @@
-# TrackMyMed — Product Plan
+# MedTrack — Product Plan
 
 ## Vision
 A medication tracking platform with accountability partners, serving both individuals and small businesses. Goal: help people never forget their medication.
@@ -80,7 +80,7 @@ A medication tracking platform with accountability partners, serving both indivi
 > Patient gets reminder via preferred channel → No response in X minutes → Next channel fires → Still nothing → Primary accountability partner alerted → Backup partners alerted → Agency home office alerted (if applicable). System learns which channels each patient responds to best and adapts over time.
 >
 > **AI Voice Call Spec:**
-> - Friendly, warm, soothing voice with a persona name (e.g., "Hi, this is Amy from TrackMyMed, an automated assistant here to help you")
+> - Friendly, warm, soothing voice with a persona name (e.g., "Hi, this is Amy from MedTrack, an automated assistant here to help you")
 > - Clearly identified as a bot/automated assistant — not pretending to be human
 > - **HARD GUARDRAILS — THE AI WILL NEVER:**
 >   - Give medical advice of any kind
@@ -100,7 +100,7 @@ A medication tracking platform with accountability partners, serving both indivi
 > - Exact pricing TBD in business plan phase
 >
 > **Competitive Advantage:**
-> No pure software competitor offers more than push notifications to the patient. SMS and phone calls currently exist only on expensive hardware platforms (MedMinder, Hero Health). TrackMyMed would be the first to deliver multi-channel + escalation + AI voice in software alone. Alexa integration does not exist in any competitor.
+> No pure software competitor offers more than push notifications to the patient. SMS and phone calls currently exist only on expensive hardware platforms (MedMinder, Hero Health). MedTrack would be the first to deliver multi-channel + escalation + AI voice in software alone. Alexa integration does not exist in any competitor.
 
 #### FEATURE 2: Proof of Care
 > **What it is:** An auditable, verifiable log of every medication event with timestamp and location data. Creates trust and transparency across all user segments.
@@ -371,7 +371,7 @@ A medication tracking platform with accountability partners, serving both indivi
 4. **Style system** — typography, spacing, components
 
 ### Phase 2: Web Platform
-5. **TrackMyMed Dashboard (web app)** — full-featured web application
+5. **MedTrack Dashboard (web app)** — full-featured web application
    - Landing/marketing page
    - User dashboard
    - Care circle management
@@ -379,7 +379,7 @@ A medication tracking platform with accountability partners, serving both indivi
    - Agency admin views
 
 ### Phase 3: Mobile App
-6. **TrackMyMed App (React Native — iOS + Android)**
+6. **MedTrack App (React Native — iOS + Android)**
    - Patient-facing reminders & confirmation
    - Caregiver logging with geotag
    - Care circle views
@@ -406,7 +406,7 @@ A medication tracking platform with accountability partners, serving both indivi
 
 ### Why This Can Win
 
-**Timing is exceptional.** Medisafe alienated millions of users with their January 2026 paywall (2-medication free limit). There's a wave of people actively searching for alternatives right now. TrackMyMed enters at the exact moment the market leader stumbled.
+**Timing is exceptional.** Medisafe alienated millions of users with their January 2026 paywall (2-medication free limit). There's a wave of people actively searching for alternatives right now. MedTrack enters at the exact moment the market leader stumbled.
 
 **The moat is real.** Multi-channel escalation (SMS, AI voice, Alexa) in a software-only platform — nobody does this. Hardware companies charge $50/month for what we'll offer free or cheap. That's not a small feature gap, that's a category difference.
 
@@ -435,7 +435,7 @@ A medication tracking platform with accountability partners, serving both indivi
 
 **High for gaining traction, moderate for building a sustainable business.**
 
-The product-market fit signals are strong — real pain point, clear gap in the market, terrible incumbents, good timing. TrackMyMed will get users. The question is whether traction converts to revenue before the runway runs out.
+The product-market fit signals are strong — real pain point, clear gap in the market, terrible incumbents, good timing. MedTrack will get users. The question is whether traction converts to revenue before the runway runs out.
 
 **Most likely path to success:** Launch free, grow fast on the Medisafe migration wave, land 3-5 agency pilots through direct outreach, use those pilots to prove the B2B model, then raise a seed round or bootstrap off agency revenue. The consumer premium (AI calls) is gravy on top.
 
