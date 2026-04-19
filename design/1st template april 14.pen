@@ -42,7 +42,7 @@
               "id": "YNedO",
               "name": "lpNavLogo",
               "fill": "#3D8A5A",
-              "content": "TrackMyMed",
+              "content": "MedTrack",
               "fontFamily": "Inter",
               "fontSize": 18,
               "fontWeight": "700"
@@ -390,7 +390,7 @@
                       "id": "tcU7W",
                       "name": "logo",
                       "fill": "#3D8A5A",
-                      "content": "TrackMyMed",
+                      "content": "MedTrack",
                       "fontFamily": "Outfit",
                       "fontSize": 18,
                       "fontWeight": "700"
@@ -3045,7 +3045,7 @@
               "id": "dOTre",
               "name": "fNavLogo",
               "fill": "#3D8A5A",
-              "content": "TrackMyMed",
+              "content": "MedTrack",
               "fontFamily": "Inter",
               "fontSize": 18,
               "fontWeight": "700"
@@ -3243,7 +3243,7 @@
                   "fill": "#555555",
                   "textGrowth": "fixed-width",
                   "width": 480,
-                  "content": "TrackMyMed reaches mom by text, phone call, or app — no tech skills needed. You get peace of mind. She gets reminded on her terms.",
+                  "content": "MedTrack reaches mom by text, phone call, or app — no tech skills needed. You get peace of mind. She gets reminded on her terms.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
                   "fontSize": 15,
@@ -3444,7 +3444,7 @@
               "id": "uquML",
               "name": "aNavLogo",
               "fill": "#3D8A5A",
-              "content": "TrackMyMed",
+              "content": "MedTrack",
               "fontFamily": "Inter",
               "fontSize": 18,
               "fontWeight": "700"
@@ -3890,7 +3890,7 @@
                       "id": "KQwGK",
                       "name": "logo",
                       "fill": "#3D8A5A",
-                      "content": "TrackMyMed",
+                      "content": "MedTrack",
                       "fontFamily": "Outfit",
                       "fontSize": 18,
                       "fontWeight": "700"
@@ -6615,7 +6615,7 @@
                       "id": "gB2lb",
                       "name": "logo",
                       "fill": "#3D8A5A",
-                      "content": "TrackMyMed",
+                      "content": "MedTrack",
                       "fontFamily": "Outfit",
                       "fontSize": 18,
                       "fontWeight": "700"
@@ -7995,7 +7995,7 @@
                       "id": "uigJj",
                       "name": "logo",
                       "fill": "#3D8A5A",
-                      "content": "TrackMyMed",
+                      "content": "MedTrack",
                       "fontFamily": "Outfit",
                       "fontSize": 18,
                       "fontWeight": "700"
@@ -9336,7 +9336,7 @@
               "id": "fOgn4",
               "name": "pNavLogo",
               "fill": "#3D8A5A",
-              "content": "TrackMyMed",
+              "content": "MedTrack",
               "fontFamily": "Inter",
               "fontSize": 18,
               "fontWeight": "700"
@@ -10451,7 +10451,7 @@
               "id": "F70BD",
               "name": "ftNavLogo",
               "fill": "#3D8A5A",
-              "content": "TrackMyMed",
+              "content": "MedTrack",
               "fontFamily": "Inter",
               "fontSize": 18,
               "fontWeight": "700"
@@ -17659,7 +17659,7 @@
                   "id": "dSitV",
                   "name": "logo",
                   "fill": "#3D8A5A",
-                  "content": "TrackMyMed",
+                  "content": "MedTrack",
                   "fontFamily": "Outfit",
                   "fontSize": 18,
                   "fontWeight": "700"
@@ -20043,7 +20043,7 @@
                   "id": "CsBBh",
                   "name": "logo",
                   "fill": "#3D8A5A",
-                  "content": "TrackMyMed",
+                  "content": "MedTrack",
                   "fontFamily": "Outfit",
                   "fontSize": 18,
                   "fontWeight": "700"
@@ -23106,7 +23106,7 @@
                       "id": "HPBLb",
                       "name": "logo",
                       "fill": "#3D8A5A",
-                      "content": "TrackMyMed",
+                      "content": "MedTrack",
                       "fontFamily": "Outfit",
                       "fontSize": 18,
                       "fontWeight": "700"
@@ -25732,7 +25732,7 @@
                   "id": "ujMA0",
                   "name": "logo",
                   "fill": "#3D8A5A",
-                  "content": "TrackMyMed",
+                  "content": "MedTrack",
                   "fontFamily": "Outfit",
                   "fontSize": 18,
                   "fontWeight": "700"
@@ -26335,7 +26335,7 @@
                   "type": "text",
                   "id": "4nrZY",
                   "fill": "#1B2A24",
-                  "content": "Welcome to TrackMyMed",
+                  "content": "Welcome to MedTrack",
                   "fontFamily": "Outfit",
                   "fontSize": 28,
                   "fontWeight": "700"
